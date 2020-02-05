@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/slzatz/graphics/thecherno/shaders_3/main.cpp
+iostream
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+fstream
+-
+string
+-
+sstream
+-
+

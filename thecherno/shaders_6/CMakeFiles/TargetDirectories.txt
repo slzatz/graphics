@@ -1,0 +1,3 @@
+/home/slzatz/graphics/thecherno/shaders_6/CMakeFiles/rebuild_cache.dir
+/home/slzatz/graphics/thecherno/shaders_6/CMakeFiles/shaders_6.dir
+/home/slzatz/graphics/thecherno/shaders_6/CMakeFiles/edit_cache.dir

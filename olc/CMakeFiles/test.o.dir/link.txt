@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17   CMakeFiles/test.o.dir/olcengine3d_obj.cpp.o  -o test.o  /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so /usr/lib/libpng.so -lpthread /usr/lib/libOpenGL.so /usr/lib/libz.so 

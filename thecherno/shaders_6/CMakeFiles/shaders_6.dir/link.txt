@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/shaders_6.dir/main.cpp.o  -o shaders_6  -lOpenGL /usr/lib/libglfw.so.3.3 -lGLEW 
