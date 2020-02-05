@@ -1,0 +1,11 @@
+/home/slzatz/graphics/thecherno/openglframework/CMakeFiles/rebuild_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/CMakeFiles/thecherno.dir
+/home/slzatz/graphics/thecherno/openglframework/CMakeFiles/edit_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/CMakeFiles/rebuild_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/CMakeFiles/edit_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/CMakeFiles/rebuild_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/CMakeFiles/edit_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/CMakeFiles/rebuild_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/CMakeFiles/edit_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/CMakeFiles/rebuild_cache.dir
+/home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/CMakeFiles/edit_cache.dir
