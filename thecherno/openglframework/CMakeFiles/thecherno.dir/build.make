@@ -60,184 +60,184 @@ include CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.o: OpenGL/src/Application.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Application.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Application.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Application.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Application.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Application.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Application.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.o: OpenGL/src/IndexBuffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/IndexBuffer.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/IndexBuffer.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/IndexBuffer.cpp > CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/IndexBuffer.cpp > CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/IndexBuffer.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/IndexBuffer.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.o: OpenGL/src/Renderer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Renderer.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Renderer.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Renderer.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Renderer.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Renderer.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Renderer.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.o: OpenGL/src/Shader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Shader.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Shader.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Shader.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Shader.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Shader.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Shader.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.o: OpenGL/src/Texture.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Texture.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Texture.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Texture.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Texture.cpp > CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Texture.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/Texture.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.o: OpenGL/src/VertexArray.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexArray.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexArray.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexArray.cpp > CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexArray.cpp > CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexArray.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexArray.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.o: OpenGL/src/VertexBuffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexBuffer.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexBuffer.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexBuffer.cpp > CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexBuffer.cpp > CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexBuffer.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/VertexBuffer.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.o: OpenGL/src/vendor/imgui/imgui.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o: OpenGL/src/vendor/imgui/imgui_draw.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_draw.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_draw.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o: OpenGL/src/vendor/stb_image/stb_image.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/stb_image.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/stb_image.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/stb_image.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/stb_image.cpp > CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.o: OpenGL/src/tests/Test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/Test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/Test.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/Test.cpp > CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/Test.cpp > CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/Test.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/Test.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.o: OpenGL/src/tests/TestClearColor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestClearColor.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestClearColor.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestClearColor.cpp > CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestClearColor.cpp > CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestClearColor.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestClearColor.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.s
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.o: CMakeFiles/thecherno.dir/flags.make
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.o: OpenGL/src/tests/TestTexture2D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestTexture2D.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.o -c /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestTexture2D.cpp
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestTexture2D.cpp > CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestTexture2D.cpp > CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.i
 
 CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestTexture2D.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/tests/TestTexture2D.cpp -o CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.s
 
 # Object files for target thecherno
 thecherno_OBJECTS = \

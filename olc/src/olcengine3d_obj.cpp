@@ -1,80 +1,15 @@
 /*
- *
- * compiled with:
- *
- * g++ -o olcengine3d_sz olcengine3d_sz.cpp -lX11 -lGL -lpthread -lpng -lstdc++fs -Wno-return-type
- OneLoneCoder.com - 3D Graphics Part #4 - Texturing & Depth Buffers
- "Tredimensjonal Grafikk" - @Javidx9
+ * Copyright 2018-2019 OneLoneCoder.com
+ *License (OLC-3)
 
- !!! MODIFIED TO SUITE PIXEL GAME ENGINE !!!
+	On some Linux configurations, the frame rate is locked to the refresh
+	rate of the monitor. This engine tries to unlock it but may not be
+	able to, in which case try launching your program like this:
 
- !!! EXAMINE LINE 70 BEFORE COMPILING !!!
+	vblank_mode=0 ./YourProgName
+ */
 
- License (OLC-3)
- ~~~~~~~~~~~~~~~
-
- Copyright 2018-2019 OneLoneCoder.com
-
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
-
- 1. Redistributions or derivations of source code must retain the above
- copyright notice, this list of conditions and the following disclaimer.
-
- 2. Redistributions or derivative works in binary form must reproduce
- the above copyright notice. This list of conditions and the following
- disclaimer must be reproduced in the documentation and/or other
- materials provided with the distribution.
-
- 3. Neither the name of the copyright holder nor the names of its
- contributors may be used to endorse or promote products derived
- from this software without specific prior written permission.
-
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
- Background
- ~~~~~~~~~~
- 3D Graphics is an interesting, visually pleasing suite of algorithms. This is the
- first video in a series that will demonstrate the fundamentals required to 
- build your own software based 3D graphics systems.
-
- Video
- ~~~~~
- https://youtu.be/ih20l3pJoeU
- https://youtu.be/XgMWc6LumG4
- https://youtu.be/HXSuNxpCzdM
- https://youtu.be/nBzCS-Y0FcY
-
- Author
- ~~~~~~
- Twitter: @javidx9
- Blog: http://www.onelonecoder.com
- Discord: https://discord.gg/WhwHUMV
-
- Last Updated: 26/05/2019
-*/
-
-
-// PLEASE NOTE! The video shows the Spyro The Dragon Level - I can't redistribute that
-// so this file is configured to show the textured Jario cube. Please ensure you have 
-// downloaded the "Jario.spr" file from
-
-// Comment out this line to run "mountains" demo from part 3
-//#define DO_TEXTURE_DEMO
-
-
+ //g++ -o olcengine3d_sz olcengine3d_sz.cpp -lX11 -lGL -lpthread -lpng -lstdc++fs -Wno-return-type
 
 #define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
@@ -106,9 +41,11 @@ struct triangle
  olc::Pixel col;
 };
 
+//polygon mesh (in this case triangles) that allow you to render 3d objects
 struct mesh
+//consists of vector of triangles and LoadFromObjectFile
 {
- vector<triangle> tris;
+ vector<triangle> tris; //the triangles have (duh) 3 positional vec3ds and 3 texture vec2ds
 
  bool LoadFromObjectFile(string sFilename, bool bHasTexture = false)
  {
@@ -213,6 +150,7 @@ private:
  float fYaw;  // FPS Camera rotation in XZ plane
  float fTheta; // Spins World transform
 
+ // not being used - slz
  olc::Sprite *sprTex1;
 
  vec3d Matrix_MultiplyVector(mat4x4 &m, vec3d &i)
@@ -531,6 +469,7 @@ private:
   }
 }
 
+// not in use right now - slz
 float *pDepthBuffer = nullptr;
 
 public:
@@ -542,6 +481,7 @@ public:
   meshCube.LoadFromObjectFile("teapot.obj");
   //meshCube.LoadFromObjectFile("VideoShip.obj");
   
+  // not in use right now - slz
   sprTex1 = new olc::Sprite("zombie.png");
 
   // Projection Matrix
@@ -562,7 +502,7 @@ public:
    vCamera.y -= 8.0f * fElapsedTime; // Travel Downwards
 
 
-  // Dont use these two in FPS mode, it is confusing :P
+  // Dont use these two in FPS (First Person Shooter) mode, it is confusing :P
   if (GetKey(olc::Key::LEFT).bHeld)
    vCamera.x -= 8.0f * fElapsedTime; // Travel Along X-Axis
 
@@ -736,6 +676,7 @@ public:
   }
 
   // Sort triangles from back to front
+  // Doing this right now and not using true depth buffer -slz
   sort(vecTrianglesToRaster.begin(), vecTrianglesToRaster.end(), [](triangle &t1, triangle &t2)
   {
    float z1 = (t1.p[0].z + t1.p[1].z + t1.p[2].z) / 3.0f;

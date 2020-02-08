@@ -423,7 +423,7 @@ namespace olc // All OneLoneCoder stuff will now exist in the "olc" namespace
 		Pixel* GetData();
 
 	private:
-		Pixel *pColData = nullptr;
+		Pixel *pColData = nullptr; //this seems to be an array of Pixels - one for each sreen pixel
 		Mode modeSample = Mode::NORMAL;
 
 #ifdef OLC_DBG_OVERDRAW
@@ -555,7 +555,7 @@ namespace olc // All OneLoneCoder stuff will now exist in the "olc" namespace
 
 	private: // Inner mysterious workings
 		Sprite		*pDefaultDrawTarget = nullptr;
-		Sprite		*pDrawTarget = nullptr;
+		Sprite		*pDrawTarget = nullptr; //still not clear to me how this draws to screen
 		Pixel::Mode	nPixelMode = Pixel::NORMAL;
 		float		fBlendFactor = 1.0f;
 		uint32_t	nScreenWidth = 256;
@@ -741,6 +741,7 @@ namespace olc
 
 	Sprite::Sprite(int32_t w, int32_t h)
 	{
+    // seems to be constructor initializing array of screen pixels
 		if(pColData) delete[] pColData;
 		width = w;		height = h;
 		pColData = new Pixel[width * height];
@@ -901,7 +902,7 @@ namespace olc
 					SetPixel(x, y, Pixel(px[0], px[1], px[2], px[3]));
 				}
 			}
-		};
+		}; //end lambda loadPNG
 
 		png = png_create_read_struct(PNG_LIBPNG_VER_STRING, NULL, NULL, NULL);
 		if (!png) goto fail_load;
@@ -935,7 +936,7 @@ namespace olc
 		pColData = nullptr;
 		return olc::FAIL;
 #endif
-	}
+	} //end Sprite::LoadFromFile
 
 	void Sprite::SetSampleMode(olc::Sprite::Mode mode)
 	{
@@ -1318,7 +1319,7 @@ namespace olc
 		return nScreenHeight;
 	}
 
-	bool PixelGameEngine::Draw(const olc::vi2d& pos, Pixel p)
+	bool PixelGameEngine::Draw(const olc::vi2d &pos, Pixel p)
 	{ return Draw(pos.x, pos.y, p); }
 
 	bool PixelGameEngine::Draw(int32_t x, int32_t y, Pixel p)
