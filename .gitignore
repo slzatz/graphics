@@ -1,0 +1,10 @@
+*.user
+*.ini
+*.bat
+*.cbp
+config*
+*.swp
+*.bac
+*.bak
+Makefile
+
