@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/slzatz/graphics/thecherno/openglframework
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/thecherno.dir/all
+all: CMakeFiles/test.dir/all
 all: OpenGL/src/all
 all: OpenGL/src/vendor/imgui/all
 all: OpenGL/src/vendor/stb_image/all
@@ -70,7 +70,7 @@ preinstall: OpenGL/src/tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/thecherno.dir/clean
+clean: CMakeFiles/test.dir/clean
 clean: OpenGL/src/clean
 clean: OpenGL/src/vendor/imgui/clean
 clean: OpenGL/src/vendor/stb_image/clean
@@ -151,31 +151,31 @@ OpenGL/src/vendor/stb_image/clean:
 .PHONY : OpenGL/src/vendor/stb_image/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/thecherno.dir
+# Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
-CMakeFiles/thecherno.dir/all:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/depend
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target thecherno"
-.PHONY : CMakeFiles/thecherno.dir/all
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/slzatz/graphics/thecherno/openglframework/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/thecherno.dir/rule: cmake_check_build_system
+CMakeFiles/test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/slzatz/graphics/thecherno/openglframework/CMakeFiles 15
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/thecherno.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/slzatz/graphics/thecherno/openglframework/CMakeFiles 0
-.PHONY : CMakeFiles/thecherno.dir/rule
+.PHONY : CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-thecherno: CMakeFiles/thecherno.dir/rule
+test: CMakeFiles/test.dir/rule
 
-.PHONY : thecherno
+.PHONY : test
 
 # clean rule for target.
-CMakeFiles/thecherno.dir/clean:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/clean
-.PHONY : CMakeFiles/thecherno.dir/clean
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,5 +1,5 @@
 /home/slzatz/graphics/thecherno/openglframework/CMakeFiles/rebuild_cache.dir
-/home/slzatz/graphics/thecherno/openglframework/CMakeFiles/thecherno.dir
+/home/slzatz/graphics/thecherno/openglframework/CMakeFiles/test.dir
 /home/slzatz/graphics/thecherno/openglframework/CMakeFiles/edit_cache.dir
 /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/CMakeFiles/rebuild_cache.dir
 /home/slzatz/graphics/thecherno/openglframework/OpenGL/src/CMakeFiles/edit_cache.dir

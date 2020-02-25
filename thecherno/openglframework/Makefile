@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named thecherno
+# Target rules for targets named test
 
 # Build rule for target.
-thecherno: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thecherno
-.PHONY : thecherno
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-thecherno/fast:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/build
-.PHONY : thecherno/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 OpenGL/src/Application.o: OpenGL/src/Application.cpp.o
 
@@ -129,7 +129,7 @@ OpenGL/src/Application.o: OpenGL/src/Application.cpp.o
 
 # target to build an object file
 OpenGL/src/Application.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Application.cpp.o
 .PHONY : OpenGL/src/Application.cpp.o
 
 OpenGL/src/Application.i: OpenGL/src/Application.cpp.i
@@ -138,7 +138,7 @@ OpenGL/src/Application.i: OpenGL/src/Application.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/Application.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Application.cpp.i
 .PHONY : OpenGL/src/Application.cpp.i
 
 OpenGL/src/Application.s: OpenGL/src/Application.cpp.s
@@ -147,7 +147,7 @@ OpenGL/src/Application.s: OpenGL/src/Application.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/Application.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Application.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Application.cpp.s
 .PHONY : OpenGL/src/Application.cpp.s
 
 OpenGL/src/IndexBuffer.o: OpenGL/src/IndexBuffer.cpp.o
@@ -156,7 +156,7 @@ OpenGL/src/IndexBuffer.o: OpenGL/src/IndexBuffer.cpp.o
 
 # target to build an object file
 OpenGL/src/IndexBuffer.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/IndexBuffer.cpp.o
 .PHONY : OpenGL/src/IndexBuffer.cpp.o
 
 OpenGL/src/IndexBuffer.i: OpenGL/src/IndexBuffer.cpp.i
@@ -165,7 +165,7 @@ OpenGL/src/IndexBuffer.i: OpenGL/src/IndexBuffer.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/IndexBuffer.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/IndexBuffer.cpp.i
 .PHONY : OpenGL/src/IndexBuffer.cpp.i
 
 OpenGL/src/IndexBuffer.s: OpenGL/src/IndexBuffer.cpp.s
@@ -174,7 +174,7 @@ OpenGL/src/IndexBuffer.s: OpenGL/src/IndexBuffer.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/IndexBuffer.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/IndexBuffer.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/IndexBuffer.cpp.s
 .PHONY : OpenGL/src/IndexBuffer.cpp.s
 
 OpenGL/src/Renderer.o: OpenGL/src/Renderer.cpp.o
@@ -183,7 +183,7 @@ OpenGL/src/Renderer.o: OpenGL/src/Renderer.cpp.o
 
 # target to build an object file
 OpenGL/src/Renderer.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Renderer.cpp.o
 .PHONY : OpenGL/src/Renderer.cpp.o
 
 OpenGL/src/Renderer.i: OpenGL/src/Renderer.cpp.i
@@ -192,7 +192,7 @@ OpenGL/src/Renderer.i: OpenGL/src/Renderer.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/Renderer.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Renderer.cpp.i
 .PHONY : OpenGL/src/Renderer.cpp.i
 
 OpenGL/src/Renderer.s: OpenGL/src/Renderer.cpp.s
@@ -201,7 +201,7 @@ OpenGL/src/Renderer.s: OpenGL/src/Renderer.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/Renderer.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Renderer.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Renderer.cpp.s
 .PHONY : OpenGL/src/Renderer.cpp.s
 
 OpenGL/src/Shader.o: OpenGL/src/Shader.cpp.o
@@ -210,7 +210,7 @@ OpenGL/src/Shader.o: OpenGL/src/Shader.cpp.o
 
 # target to build an object file
 OpenGL/src/Shader.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Shader.cpp.o
 .PHONY : OpenGL/src/Shader.cpp.o
 
 OpenGL/src/Shader.i: OpenGL/src/Shader.cpp.i
@@ -219,7 +219,7 @@ OpenGL/src/Shader.i: OpenGL/src/Shader.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/Shader.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Shader.cpp.i
 .PHONY : OpenGL/src/Shader.cpp.i
 
 OpenGL/src/Shader.s: OpenGL/src/Shader.cpp.s
@@ -228,7 +228,7 @@ OpenGL/src/Shader.s: OpenGL/src/Shader.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/Shader.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Shader.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Shader.cpp.s
 .PHONY : OpenGL/src/Shader.cpp.s
 
 OpenGL/src/Texture.o: OpenGL/src/Texture.cpp.o
@@ -237,7 +237,7 @@ OpenGL/src/Texture.o: OpenGL/src/Texture.cpp.o
 
 # target to build an object file
 OpenGL/src/Texture.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Texture.cpp.o
 .PHONY : OpenGL/src/Texture.cpp.o
 
 OpenGL/src/Texture.i: OpenGL/src/Texture.cpp.i
@@ -246,7 +246,7 @@ OpenGL/src/Texture.i: OpenGL/src/Texture.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/Texture.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Texture.cpp.i
 .PHONY : OpenGL/src/Texture.cpp.i
 
 OpenGL/src/Texture.s: OpenGL/src/Texture.cpp.s
@@ -255,7 +255,7 @@ OpenGL/src/Texture.s: OpenGL/src/Texture.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/Texture.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/Texture.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/Texture.cpp.s
 .PHONY : OpenGL/src/Texture.cpp.s
 
 OpenGL/src/VertexArray.o: OpenGL/src/VertexArray.cpp.o
@@ -264,7 +264,7 @@ OpenGL/src/VertexArray.o: OpenGL/src/VertexArray.cpp.o
 
 # target to build an object file
 OpenGL/src/VertexArray.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/VertexArray.cpp.o
 .PHONY : OpenGL/src/VertexArray.cpp.o
 
 OpenGL/src/VertexArray.i: OpenGL/src/VertexArray.cpp.i
@@ -273,7 +273,7 @@ OpenGL/src/VertexArray.i: OpenGL/src/VertexArray.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/VertexArray.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/VertexArray.cpp.i
 .PHONY : OpenGL/src/VertexArray.cpp.i
 
 OpenGL/src/VertexArray.s: OpenGL/src/VertexArray.cpp.s
@@ -282,7 +282,7 @@ OpenGL/src/VertexArray.s: OpenGL/src/VertexArray.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/VertexArray.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/VertexArray.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/VertexArray.cpp.s
 .PHONY : OpenGL/src/VertexArray.cpp.s
 
 OpenGL/src/VertexBuffer.o: OpenGL/src/VertexBuffer.cpp.o
@@ -291,7 +291,7 @@ OpenGL/src/VertexBuffer.o: OpenGL/src/VertexBuffer.cpp.o
 
 # target to build an object file
 OpenGL/src/VertexBuffer.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/VertexBuffer.cpp.o
 .PHONY : OpenGL/src/VertexBuffer.cpp.o
 
 OpenGL/src/VertexBuffer.i: OpenGL/src/VertexBuffer.cpp.i
@@ -300,7 +300,7 @@ OpenGL/src/VertexBuffer.i: OpenGL/src/VertexBuffer.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/VertexBuffer.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/VertexBuffer.cpp.i
 .PHONY : OpenGL/src/VertexBuffer.cpp.i
 
 OpenGL/src/VertexBuffer.s: OpenGL/src/VertexBuffer.cpp.s
@@ -309,7 +309,7 @@ OpenGL/src/VertexBuffer.s: OpenGL/src/VertexBuffer.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/VertexBuffer.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/VertexBuffer.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/VertexBuffer.cpp.s
 .PHONY : OpenGL/src/VertexBuffer.cpp.s
 
 OpenGL/src/tests/Test.o: OpenGL/src/tests/Test.cpp.o
@@ -318,7 +318,7 @@ OpenGL/src/tests/Test.o: OpenGL/src/tests/Test.cpp.o
 
 # target to build an object file
 OpenGL/src/tests/Test.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/Test.cpp.o
 .PHONY : OpenGL/src/tests/Test.cpp.o
 
 OpenGL/src/tests/Test.i: OpenGL/src/tests/Test.cpp.i
@@ -327,7 +327,7 @@ OpenGL/src/tests/Test.i: OpenGL/src/tests/Test.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/tests/Test.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/Test.cpp.i
 .PHONY : OpenGL/src/tests/Test.cpp.i
 
 OpenGL/src/tests/Test.s: OpenGL/src/tests/Test.cpp.s
@@ -336,7 +336,7 @@ OpenGL/src/tests/Test.s: OpenGL/src/tests/Test.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/tests/Test.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/Test.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/Test.cpp.s
 .PHONY : OpenGL/src/tests/Test.cpp.s
 
 OpenGL/src/tests/TestClearColor.o: OpenGL/src/tests/TestClearColor.cpp.o
@@ -345,7 +345,7 @@ OpenGL/src/tests/TestClearColor.o: OpenGL/src/tests/TestClearColor.cpp.o
 
 # target to build an object file
 OpenGL/src/tests/TestClearColor.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/TestClearColor.cpp.o
 .PHONY : OpenGL/src/tests/TestClearColor.cpp.o
 
 OpenGL/src/tests/TestClearColor.i: OpenGL/src/tests/TestClearColor.cpp.i
@@ -354,7 +354,7 @@ OpenGL/src/tests/TestClearColor.i: OpenGL/src/tests/TestClearColor.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/tests/TestClearColor.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/TestClearColor.cpp.i
 .PHONY : OpenGL/src/tests/TestClearColor.cpp.i
 
 OpenGL/src/tests/TestClearColor.s: OpenGL/src/tests/TestClearColor.cpp.s
@@ -363,7 +363,7 @@ OpenGL/src/tests/TestClearColor.s: OpenGL/src/tests/TestClearColor.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/tests/TestClearColor.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/TestClearColor.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/TestClearColor.cpp.s
 .PHONY : OpenGL/src/tests/TestClearColor.cpp.s
 
 OpenGL/src/tests/TestTexture2D.o: OpenGL/src/tests/TestTexture2D.cpp.o
@@ -372,7 +372,7 @@ OpenGL/src/tests/TestTexture2D.o: OpenGL/src/tests/TestTexture2D.cpp.o
 
 # target to build an object file
 OpenGL/src/tests/TestTexture2D.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/TestTexture2D.cpp.o
 .PHONY : OpenGL/src/tests/TestTexture2D.cpp.o
 
 OpenGL/src/tests/TestTexture2D.i: OpenGL/src/tests/TestTexture2D.cpp.i
@@ -381,7 +381,7 @@ OpenGL/src/tests/TestTexture2D.i: OpenGL/src/tests/TestTexture2D.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/tests/TestTexture2D.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/TestTexture2D.cpp.i
 .PHONY : OpenGL/src/tests/TestTexture2D.cpp.i
 
 OpenGL/src/tests/TestTexture2D.s: OpenGL/src/tests/TestTexture2D.cpp.s
@@ -390,7 +390,7 @@ OpenGL/src/tests/TestTexture2D.s: OpenGL/src/tests/TestTexture2D.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/tests/TestTexture2D.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/tests/TestTexture2D.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/tests/TestTexture2D.cpp.s
 .PHONY : OpenGL/src/tests/TestTexture2D.cpp.s
 
 OpenGL/src/vendor/imgui/imgui.o: OpenGL/src/vendor/imgui/imgui.cpp.o
@@ -399,7 +399,7 @@ OpenGL/src/vendor/imgui/imgui.o: OpenGL/src/vendor/imgui/imgui.cpp.o
 
 # target to build an object file
 OpenGL/src/vendor/imgui/imgui.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui.cpp.o
 .PHONY : OpenGL/src/vendor/imgui/imgui.cpp.o
 
 OpenGL/src/vendor/imgui/imgui.i: OpenGL/src/vendor/imgui/imgui.cpp.i
@@ -408,7 +408,7 @@ OpenGL/src/vendor/imgui/imgui.i: OpenGL/src/vendor/imgui/imgui.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/vendor/imgui/imgui.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui.cpp.i
 .PHONY : OpenGL/src/vendor/imgui/imgui.cpp.i
 
 OpenGL/src/vendor/imgui/imgui.s: OpenGL/src/vendor/imgui/imgui.cpp.s
@@ -417,7 +417,7 @@ OpenGL/src/vendor/imgui/imgui.s: OpenGL/src/vendor/imgui/imgui.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/vendor/imgui/imgui.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui.cpp.s
 .PHONY : OpenGL/src/vendor/imgui/imgui.cpp.s
 
 OpenGL/src/vendor/imgui/imgui_draw.o: OpenGL/src/vendor/imgui/imgui_draw.cpp.o
@@ -426,7 +426,7 @@ OpenGL/src/vendor/imgui/imgui_draw.o: OpenGL/src/vendor/imgui/imgui_draw.cpp.o
 
 # target to build an object file
 OpenGL/src/vendor/imgui/imgui_draw.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.o
 .PHONY : OpenGL/src/vendor/imgui/imgui_draw.cpp.o
 
 OpenGL/src/vendor/imgui/imgui_draw.i: OpenGL/src/vendor/imgui/imgui_draw.cpp.i
@@ -435,7 +435,7 @@ OpenGL/src/vendor/imgui/imgui_draw.i: OpenGL/src/vendor/imgui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 OpenGL/src/vendor/imgui/imgui_draw.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.i
 .PHONY : OpenGL/src/vendor/imgui/imgui_draw.cpp.i
 
 OpenGL/src/vendor/imgui/imgui_draw.s: OpenGL/src/vendor/imgui/imgui_draw.cpp.s
@@ -444,7 +444,7 @@ OpenGL/src/vendor/imgui/imgui_draw.s: OpenGL/src/vendor/imgui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 OpenGL/src/vendor/imgui/imgui_draw.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui_draw.cpp.s
 .PHONY : OpenGL/src/vendor/imgui/imgui_draw.cpp.s
 
 OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.o: OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
@@ -453,7 +453,7 @@ OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.o: OpenGL/src/vendor/imgui/imgui_imp
 
 # target to build an object file
 OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
 .PHONY : OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
 
 OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.i: OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
@@ -462,7 +462,7 @@ OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.i: OpenGL/src/vendor/imgui/imgui_imp
 
 # target to preprocess a source file
 OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
 .PHONY : OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
 
 OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.s: OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
@@ -471,7 +471,7 @@ OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.s: OpenGL/src/vendor/imgui/imgui_imp
 
 # target to generate assembly for a file
 OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
 .PHONY : OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
 
 OpenGL/src/vendor/stb_image/stb_image.o: OpenGL/src/vendor/stb_image/stb_image.cpp.o
@@ -480,7 +480,7 @@ OpenGL/src/vendor/stb_image/stb_image.o: OpenGL/src/vendor/stb_image/stb_image.c
 
 # target to build an object file
 OpenGL/src/vendor/stb_image/stb_image.cpp.o:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.o
 .PHONY : OpenGL/src/vendor/stb_image/stb_image.cpp.o
 
 OpenGL/src/vendor/stb_image/stb_image.i: OpenGL/src/vendor/stb_image/stb_image.cpp.i
@@ -489,7 +489,7 @@ OpenGL/src/vendor/stb_image/stb_image.i: OpenGL/src/vendor/stb_image/stb_image.c
 
 # target to preprocess a source file
 OpenGL/src/vendor/stb_image/stb_image.cpp.i:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.i
 .PHONY : OpenGL/src/vendor/stb_image/stb_image.cpp.i
 
 OpenGL/src/vendor/stb_image/stb_image.s: OpenGL/src/vendor/stb_image/stb_image.cpp.s
@@ -498,7 +498,7 @@ OpenGL/src/vendor/stb_image/stb_image.s: OpenGL/src/vendor/stb_image/stb_image.c
 
 # target to generate assembly for a file
 OpenGL/src/vendor/stb_image/stb_image.cpp.s:
-	$(MAKE) -f CMakeFiles/thecherno.dir/build.make CMakeFiles/thecherno.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/OpenGL/src/vendor/stb_image/stb_image.cpp.s
 .PHONY : OpenGL/src/vendor/stb_image/stb_image.cpp.s
 
 # Help Target
@@ -508,7 +508,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... thecherno"
+	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... OpenGL/src/Application.o"
 	@echo "... OpenGL/src/Application.i"
