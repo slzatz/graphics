@@ -7,6 +7,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 project(thecherno)
+set(ExecutableName test)
 
 set (OpenGL_GL_PREFERENCE "GLVND")
 
@@ -22,9 +23,11 @@ set (source_dir "${PROJECT_SOURCE_DIR}/OpenGL/src")
 #file (GLOB source_files "${source_dir}/*.cpp", "${source_dir}/tests/*.cpp", "${source_dir}/vendor/imgui/*.cpp", "${source_dir}/vendor/stb_image/stb_image.cpp")
 file (GLOB source_files "${source_dir}/*.cpp" "${source_dir}/vendor/imgui/*.cpp")
 
-#add_subdirectory("${source_dir}/tests") #new
 #add_executable(${PROJECT_NAME} ${source_files})
-add_executable(${PROJECT_NAME})
+set(Executable ${ExecutableName})
+#add_executable(${PROJECT_NAME})
+add_executable(${Executable})
+# add_subdirectory for all the sub_directories with cpp files
 add_subdirectory("${source_dir}")
 add_subdirectory("${source_dir}/vendor/imgui")
 add_subdirectory("${source_dir}/vendor/stb_image")
@@ -32,13 +35,17 @@ add_subdirectory("${source_dir}/tests")
 # note that GLM is only headers
 
 # note that for what we're doing doesn't matter whether PUBLIC or PRIVATE (see CMAKE docs)
-target_include_directories(thecherno PUBLIC "${source_dir}")
-target_include_directories(thecherno PUBLIC "${source_dir}/tests")
-target_include_directories(thecherno PUBLIC "${source_dir}/vendor/stb_image")
-target_include_directories(thecherno PUBLIC "${source_dir}/vendor/glm")
-target_include_directories(thecherno PUBLIC "${source_dir}/vendor/imgui")
+# target_include_directories has target scope which I believe is what I generally want
+# this is for finding header files
+#target_include_directories(thecherno PUBLIC "${source_dir}")
+target_include_directories(${Executable} PUBLIC "${source_dir}")
+target_include_directories(${Executable} PUBLIC "${source_dir}/tests")
+target_include_directories(${Executable} PUBLIC "${source_dir}/vendor/stb_image")
+target_include_directories(${Executable} PUBLIC "${source_dir}/vendor/glm")
+target_include_directories(${Executable} PUBLIC "${source_dir}/vendor/imgui")
 # add_executable has to come before target_link_libraries
-target_link_libraries(thecherno OpenGL glfw GLEW)
+#target_link_libraries(thecherno OpenGL glfw GLEW)
+target_link_libraries(${Executable} OpenGL glfw GLEW)
 
 # Note that there is a CMakeLists.txt in:  src, src/vendor/imgui, src/vendor/stb_image and src/tests
 # src CMakeLists.txt: target_sources(thecherno PRIVATE Application.cpp IndexBuffer.cpp Renderer.cpp Shader.cpp Texture.cpp VertexArray.cpp VertexBuffer.cpp)

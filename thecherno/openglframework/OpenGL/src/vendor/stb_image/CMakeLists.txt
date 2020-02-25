@@ -1,1 +1,1 @@
-target_sources(thecherno PRIVATE stb_image.cpp)
+target_sources(${Executable} PRIVATE stb_image.cpp)
